@@ -1,0 +1,60 @@
+.todo-form{
+    text-align:center;
+}
+#todoBlock h1{
+    text-align: center;
+}
+.todo-form input{
+    width:500px;
+    height: 30px;
+    text-align: center;
+  margin-bottom: 32px;
+
+}
+.todo-btn{
+    border: none;
+    background-color: rgb(40, 40, 85);
+    color: #fff;
+    height: 30px ;
+    width: 100px; 
+}
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+ padding: 16px;
+  border-radius: 5px;
+  width: 45%;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: -400px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
